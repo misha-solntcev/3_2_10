@@ -30,10 +30,10 @@ namespace _3_2_10
 
         static void Main(string[] args)
         {
-            Program.myString = "Первое было, а стало Последнее.";
+            myString = "Первое было, а стало Последнее.";
 
-            FirstSecond(Program.myString);
-            Console.WriteLine(Program.myString);            
+            FirstSecond(myString);
+            Console.WriteLine(myString);
 
             Console.ReadKey();
         }
